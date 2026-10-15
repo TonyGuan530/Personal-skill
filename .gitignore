@@ -1,0 +1,26 @@
+# Local credentials, environments and caches.
+.env
+.env.*
+*.pem
+*.key
+*.token
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Board exports and downloaded media are private inputs, not skill sources.
+exports/
+output/
+downloads/
+board.json
+board.md
+miro-local-*/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pdf
