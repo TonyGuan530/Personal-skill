@@ -1,0 +1,4 @@
+interface:
+  display_name: "Placeholder UI 成品化"
+  short_description: "跨平台将程序化线框按钮与占位底板生成成品皮肤，接入后自检布局、状态和交互"
+  default_prompt: "使用 $ui-placeholder-replacement 检查当前界面的占位UI，按已有画风生成或复用合适素材并接入，再自检布局、状态、特效轮廓和真实交互。"
