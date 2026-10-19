@@ -1,0 +1,8 @@
+{
+  "mainLimitBytes": 4194304,
+  "totalLimitBytes": 31457280,
+  "mainTargetBytes": 3145728,
+  "totalTargetBytes": 16777216,
+  "plannedGames": 6,
+  "existingGames": 2
+}

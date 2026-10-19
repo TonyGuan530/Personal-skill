@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub API 提交与 PR"
+  short_description: "通过标准 Git 推送和 GitHub REST API 创建、更新 PR，核实覆盖关系后替代旧 PR"
+  default_prompt: "使用 $github-pr-api 检查当前分支并推送，通过 API 创建或更新 PR，准确报告提交和 PR 状态。"
