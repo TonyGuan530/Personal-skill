@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信多账号与自动化测试"
+  short_description: "核验官方CLI和Canvas自动化能力，建立独立多角色测试通道与分层证据"
+  default_prompt: "使用 $wechat-multiactor-testing 检查当前微信项目的多账号与自动化能力，完成工具链配置，并执行当前已授权范围内的测试。"

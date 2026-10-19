@@ -1,0 +1,4 @@
+interface:
+  display_name: "桌游移植：初始化到上线验收"
+  short_description: "从确认规则建立功能占位、生产素材、完整对局及分阶段上线验收清单"
+  default_prompt: "使用 $boardgame-reskin-pipeline，基于已确认规则和现有项目建立初始化大礼包，列出开发占位、首发必要功能与发布验收，并继续完成当前授权阶段。"

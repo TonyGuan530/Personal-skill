@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-19",
+  "scope": "user-installed top-level skills; excludes system and plugin caches",
+  "skills": [
+    {
+      "name": "anti-sycophancy",
+      "category": "协作规范",
+      "description": "基于证据回答，避免迎合与虚假确定性。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ],
+      "upstream": {
+        "path": "skills/anti-sycophancy",
+        "repository": "https://github.com/mskadu/opencode-agent-skills",
+        "commit": "d99289d17ef1edc85e742d3203ee5eac386dd956",
+        "upstream_skill_modified": false,
+        "installed_at": "2026-09-22T04:20:16.2473753+08:00",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "boardgame-reskin-pipeline",
+      "category": "游戏制作",
+      "description": "桌游移植、换皮、生产素材与终局验收。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "cloudbase",
+      "category": "云开发",
+      "description": "腾讯云开发总入口，涵盖认证、数据库、云函数和部署。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md",
+        "references/ai-model-nodejs/SKILL.md",
+        "references/ai-model-web/SKILL.md",
+        "references/ai-model-wechat/SKILL.md",
+        "references/auth-nodejs-cloudbase/SKILL.md",
+        "references/auth-tool-cloudbase/SKILL.md",
+        "references/auth-web-cloudbase/SKILL.md",
+        "references/auth-wechat-miniprogram/SKILL.md",
+        "references/cloud-api-operations/SKILL.md",
+        "references/cloud-functions/SKILL.md",
+        "references/cloud-storage-web/SKILL.md",
+        "references/cloudbase-agent/SKILL.md",
+        "references/cloudbase-cli/SKILL.md",
+        "references/cloudbase-code-review/SKILL.md",
+        "references/cloudbase-declarative-deploy/SKILL.md",
+        "references/cloudbase-document-database-in-wechat-miniprogram/SKILL.md",
+        "references/cloudbase-document-database-web-sdk/SKILL.md",
+        "references/cloudbase-mcp/SKILL.md",
+        "references/cloudbase-platform/SKILL.md",
+        "references/cloudbase-wechat-integration/SKILL.md",
+        "references/cloudrun-development/SKILL.md",
+        "references/data-model-creation/SKILL.md",
+        "references/http-api-cloudbase/SKILL.md",
+        "references/minimal-web-baas-demo/SKILL.md",
+        "references/miniprogram-development/SKILL.md",
+        "references/ops-inspector/SKILL.md",
+        "references/postgresql-best-practices-cloudbase/SKILL.md",
+        "references/postgresql-development-cloudbase/SKILL.md",
+        "references/relational-database-mcp-cloudbase/SKILL.md",
+        "references/relational-database-web-cloudbase/SKILL.md",
+        "references/spec-workflow/SKILL.md",
+        "references/ui-design/SKILL.md",
+        "references/web-development/SKILL.md",
+        "references/cloudbase-agent/py/skill.md",
+        "references/cloudbase-agent/ts/skill.md"
+      ]
+    },
+    {
+      "name": "game-development",
+      "category": "游戏制作",
+      "description": "游戏开发总入口及引擎、平台、美术、音效等子技能。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md",
+        "2d-games/SKILL.md",
+        "3d-games/SKILL.md",
+        "engine-selection/SKILL.md",
+        "game-art/SKILL.md",
+        "game-audio/SKILL.md",
+        "game-design/SKILL.md",
+        "mobile-games/SKILL.md",
+        "multiplayer/SKILL.md",
+        "pc-games/SKILL.md",
+        "vr-ar/SKILL.md",
+        "web-games/SKILL.md"
+      ]
+    },
+    {
+      "name": "game-team",
+      "category": "游戏制作",
+      "description": "按需组织策划、程序、美术、UI、QA与审计职责。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "github-pr-api",
+      "category": "协作规范",
+      "description": "GitHub 提交、推送、PR及认证故障处理。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "godot",
+      "category": "游戏制作",
+      "description": "Godot 场景、脚本、资源、检查和导出工具链。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ],
+      "upstream": {
+        "repository": "https://github.com/haxqer/godot-skill",
+        "revision": "1aec6d436f6a35044fe2f269637a339c2b8749b4",
+        "path": "skill/godot",
+        "license": "MIT"
+      }
+    },
+    {
+      "name": "imaginarium-model-godot-creator",
+      "category": "素材生产",
+      "description": "Imaginarium 生成模型，经 Blender 处理后接入 Godot。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "knowledge-cat-ppt-skill",
+      "category": "文档设计",
+      "description": "演示稿故事结构、制作、评审和修复。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "miro-read",
+      "category": "文档设计",
+      "description": "只读获取、总结和导出 Miro 白板。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "security-best-practices",
+      "category": "安全审查",
+      "description": "Python、JS/TS、Go 安全最佳实践审查。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "security-threat-model",
+      "category": "安全审查",
+      "description": "根据仓库证据建立威胁模型。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "ui-placeholder-replacement",
+      "category": "素材生产",
+      "description": "把临时按钮、底板与框体替换为生产皮肤并验收。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "文档设计",
+      "description": "UI/UX 风格、配色、字体、布局与交互检索。",
+      "status": "catalog-only",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "wechat-multiactor-testing",
+      "category": "微信测试",
+      "description": "微信开发者工具多账号、多实例隔离与通道验证。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "wechat-package-slimming",
+      "category": "微信测试",
+      "description": "微信小游戏素材和包体优化。",
+      "status": "source",
+      "source_root": "codex",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "chatgpt-glm-communicate",
+      "category": "协作规范",
+      "description": "通过已登录的真实网页进行 ChatGPT 与 GLM 对话交接。",
+      "status": "source",
+      "source_root": "agents",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "wechat-minigame-qa",
+      "category": "微信测试",
+      "description": "微信小游戏画布交互、完整对局、规则与卡死检查。",
+      "status": "source",
+      "source_root": "agents",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "zcode-image-gen",
+      "category": "素材生产",
+      "description": "通过椒图网页或无头浏览器生成和下载图片。",
+      "status": "source",
+      "source_root": "agents",
+      "entrypoints": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}

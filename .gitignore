@@ -24,3 +24,10 @@ miro-local-*/
 *.webp
 *.gif
 *.pdf
+
+# Skill runtimes and browser login state stay local.
+node_modules/
+auth/
+playwright-report/
+test-results/
+*.log

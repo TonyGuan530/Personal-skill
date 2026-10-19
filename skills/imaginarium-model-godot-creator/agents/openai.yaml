@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imaginarium Model Godot Creator"
+  short_description: "通过 Imaginarium 生成模型，完成 Blender 优化和 Godot 接入验收"
+  default_prompt: "使用 $imaginarium-model-godot-creator 制作并接入游戏模型，沿用当前概念和美术规格。"

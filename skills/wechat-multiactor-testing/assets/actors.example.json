@@ -1,0 +1,8 @@
+{
+  "candidate": "replace-with-fixed-commit",
+  "route": "bridge-project",
+  "actors": [
+    {"alias": "player-a", "project": "C:/qa/actor-a", "port": 9421, "accountEnv": "WX_ACTOR_A"},
+    {"alias": "player-b", "project": "C:/qa/actor-b", "port": 9422, "accountEnv": "WX_ACTOR_B"}
+  ]
+}

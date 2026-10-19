@@ -1,0 +1,4 @@
+interface:
+  display_name: "微信小游戏包体瘦身"
+  short_description: "在保留画风与可读性的前提下审计资源、压缩图片和缩减小游戏包体"
+  default_prompt: "使用 $wechat-package-slimming 审计当前微信小游戏包体，并在画质验证后实施免费瘦身。"
